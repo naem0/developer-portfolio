@@ -1,0 +1,203 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.praymary-button{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.praymary-color{
+    color: #FD6E0A;
+}
+/* header and nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+/* nanner style */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;   
+}
+.banner{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+
+}
+.banner-subtitle{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.banner-p{
+    color: #757575;
+    margin-bottom: 30px;
+}
+/* Main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Me style */
+.about-me-bg{
+    background: #FFF8F3;
+    text-align: center;
+    margin-top: 120px;
+}
+.about-me{
+    padding: 125px 150px;
+    
+}
+.section-h{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.section-p{
+    margin-top: 30px;
+    color: #757575;
+    font-size: 18px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-info-name{
+    color: #757575;
+    font-size: 18px;
+}
+.about-info-valu{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+.bout-info-itam{
+    margin-top: 30px;
+}
+.what-do{
+    margin-top: 135px;
+}
+.what-do-p-h-aria{
+    margin: 0px 150px;
+    text-align: center;
+}
+.skill-continar{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+
+}
+.skili-itam{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px 0px #0000000F;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.skill-title{
+    font-weight: bold;
+    margin-top: 30px;
+}
+.skill-descripition{
+    color: #757575;
+    margin-top: 20px; 
+}
+.sumary-all{
+    margin-top: 130px;
+}
+.sumary-all h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+
+}
+.sumary{
+    display: flex;
+    gap: 69px;
+}
+.experience-all{
+    margin-top: 110px;
+}
+.digri{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.university{
+    margin-top: 15px;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sumary-button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.connect{
+    display: flex;
+    gap: 10%;
+    background-color:#FFF8F3;
+    padding: 130px;
+}
+.connect-info{
+    width: 50%;
+}
+.connect-h{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.sociel-icon{
+    margin-top: 30px;
+}
+.sociel-icon img{
+    width: 24px;
+    margin-right: 24px;
+}
+.connect-form{
+    width: 35%;
+    display: block;
+}
+label input, textarea{
+    margin-top: 20px;
+    display: block;
+    gap: 20px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.submit{
+    margin-top: 20px;
+}
