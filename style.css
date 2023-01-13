@@ -201,3 +201,32 @@ label input, textarea{
 .submit{
     margin-top: 20px;
 }
+@media screen and (max-width:580px) {
+    .skill-continar, .sumary, .connect, .about-info, nav, ul, .banner{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .what-do-p-h-aria, .sumary, .connect, .about-me, .banner, nav{
+        margin: 0px 30px;
+        padding: 0px;
+    }
+    nav ul {
+        align-items: flex-start;
+        margin: 20px 0px 50px 0px;
+    }
+    nav ul li {
+        margin-left: 0px;
+    }
+    .connect-info{
+        margin-bottom: 50px;
+    }
+    .nav-titles{
+        margin-top: 50px;
+    }
+    .arthar-img{
+        width: 100%;
+    }
+}
+.heden{
+    display: none;
+}
